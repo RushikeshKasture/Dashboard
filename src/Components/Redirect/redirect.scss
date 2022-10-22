@@ -1,0 +1,23 @@
+$height : calc(100px - 20px);
+
+
+.head__card {
+    margin-top: $height;
+    width: 100%;
+    height: 250px;
+    // padding: 10rem;
+    border-radius: 15px;
+    background-color: rgba(55, 106, 224, 0.963);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .message {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+
+    }
+}
