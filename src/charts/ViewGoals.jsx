@@ -6,7 +6,7 @@ function ViewGoals() {
   const percentage = 66;
   return (
     <div style={{ width: "30%" }}>
-      <CircularProgressbar value={percentage} text={`${percentage}%`} />
+      {/* <CircularProgressbar value={percentage} text={`${percentage}%`} /> */}
     </div>
   );
 }
